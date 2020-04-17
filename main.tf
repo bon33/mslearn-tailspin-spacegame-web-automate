@@ -5,8 +5,8 @@ terraform {
   }
 }
 
-providers "azurerm" {
-  features {}
+provider "azurerm" {
+   features {}
 }
 
 variable "resource_group_name" {
